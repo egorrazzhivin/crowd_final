@@ -1,0 +1,65 @@
+{
+  "scope": "Two positive smoke-test images; runtime and output validation, not an accuracy benchmark",
+  "results": [
+    {
+      "model": "IDEA-Research/grounding-dino-tiny",
+      "device": "mps",
+      "directory": "smoke_2_grounding-dino_threshold-0.25_nms-off",
+      "photo_ids": [
+        630575872,
+        659154944
+      ],
+      "box_counts": [
+        3,
+        5
+      ],
+      "errors": 0,
+      "inference_seconds": [
+        0.7266624170006253,
+        0.4500746250269003
+      ],
+      "mean_inference_seconds": 0.5883685210137628,
+      "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71"
+    },
+    {
+      "model": "google/owlv2-base-patch16",
+      "device": "mps",
+      "directory": "smoke_2_owlv2_threshold-0.1",
+      "photo_ids": [
+        630575872,
+        659154944
+      ],
+      "box_counts": [
+        8,
+        3
+      ],
+      "errors": 0,
+      "inference_seconds": [
+        1.416356125031598,
+        0.45096049999119714
+      ],
+      "mean_inference_seconds": 0.9336583125113975,
+      "revision": "2a1560802f8cf3c408fec9b809d705f56a2f7146"
+    },
+    {
+      "model": "Qwen/Qwen3-VL-2B-Instruct",
+      "device": "mps",
+      "directory": "smoke_2_qwen_threshold-none",
+      "photo_ids": [
+        630575872,
+        659154944
+      ],
+      "box_counts": [
+        1,
+        1
+      ],
+      "errors": 0,
+      "inference_seconds": [
+        5.0555734999943525,
+        3.3306960000190884
+      ],
+      "mean_inference_seconds": 4.19313475000672,
+      "revision": "89644892e4d85e24eaac8bacfd4f463576704203"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "model": "grounding-dino",
+    "returncode": 0,
+    "wall_seconds": 19.735861791006755
+  },
+  {
+    "model": "owlv2",
+    "returncode": 0,
+    "wall_seconds": 9.457081291999202
+  },
+  {
+    "model": "qwen",
+    "returncode": 0,
+    "wall_seconds": 33.28844624996418
+  }
+]

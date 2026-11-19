@@ -1,0 +1,5 @@
+Locate every adult butterfly or moth in this photograph, including both daytime and nighttime species.
+Return one tight bounding box per individual, including its visible wings, body, antennae and legs.
+For overlapping or partially occluded individuals, box each individual separately and include only its visible parts. Do not infer hidden parts beyond the image boundary.
+Do not include caterpillars, pupae, other insects, shadows or background objects.
+If there are no adult butterflies or moths, return an empty list.

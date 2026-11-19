@@ -1,0 +1,164 @@
+[
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_contest_grounding-dino_threshold-0.0_nms-off",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/predictions/dataset_contest_grounding-dino_threshold-0.0_nms-off",
+    "files": 3,
+    "bytes": 78215521
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_contest_owlv2_threshold-0.0",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/predictions/dataset_contest_owlv2_threshold-0.0",
+    "files": 3,
+    "bytes": 277775420
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_contest_qwen_threshold-none",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/predictions/dataset_contest_qwen_threshold-none",
+    "files": 3,
+    "bytes": 155094
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_ours_grounding-dino_threshold-0.0_nms-off",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/predictions/dataset_ours_grounding-dino_threshold-0.0_nms-off",
+    "files": 3,
+    "bytes": 78162288
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_ours_grounding-dino_threshold-0.25",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/dataset_ours_grounding-dino_threshold-0.25",
+    "files": 7,
+    "bytes": 2275087
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_ours_grounding-dino_threshold-0.25_nms-0.5",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/dataset_ours_grounding-dino_threshold-0.25_nms-0.5",
+    "files": 4,
+    "bytes": 2196609
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_ours_owlv2_threshold-0.0",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/predictions/dataset_ours_owlv2_threshold-0.0",
+    "files": 3,
+    "bytes": 276874760
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_ours_qwen_threshold-none",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/predictions/dataset_ours_qwen_threshold-none",
+    "files": 8,
+    "bytes": 273568
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_annotation.pid",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_annotation.pid",
+    "files": 1,
+    "bytes": 6
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_annotation_console.log",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_annotation_console.log",
+    "files": 1,
+    "bytes": 0
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_annotation_status.json",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_annotation_status.json",
+    "files": 1,
+    "bytes": 3485
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_contest_grounding-dino.log",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_dataset_contest_grounding-dino.log",
+    "files": 1,
+    "bytes": 11178
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_contest_owlv2.log",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_dataset_contest_owlv2.log",
+    "files": 1,
+    "bytes": 11885
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_contest_qwen.log",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_dataset_contest_qwen.log",
+    "files": 1,
+    "bytes": 10513
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_ours_grounding-dino.log",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_dataset_ours_grounding-dino.log",
+    "files": 1,
+    "bytes": 12432
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_ours_owlv2.log",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_dataset_ours_owlv2.log",
+    "files": 1,
+    "bytes": 13139
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_ours_qwen.log",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/logs/full_dataset_ours_qwen.log",
+    "files": 1,
+    "bytes": 11866
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_10.jsonl",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_10.jsonl",
+    "files": 1,
+    "bytes": 1172
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_10_comparison.png",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_10_comparison.png",
+    "files": 1,
+    "bytes": 3641087
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_10_highlights.png",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_10_highlights.png",
+    "files": 1,
+    "bytes": 986044
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_10_inputs.png",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_10_inputs.png",
+    "files": 1,
+    "bytes": 1288406
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_10_manifest.json",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_10_manifest.json",
+    "files": 1,
+    "bytes": 1856
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_10_status.json",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_10_status.json",
+    "files": 1,
+    "bytes": 282
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_10_summary.json",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_10_summary.json",
+    "files": 1,
+    "bytes": 3023
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_2.jsonl",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_2.jsonl",
+    "files": 1,
+    "bytes": 234
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_2_comparison.png",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_2_comparison.png",
+    "files": 1,
+    "bytes": 1286532
+  },
+  {
+    "from": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/smoke_2_summary.json",
+    "to": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/experiments/smoke_2_summary.json",
+    "files": 1,
+    "bytes": 1571
+  }
+]

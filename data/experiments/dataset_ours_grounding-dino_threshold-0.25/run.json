@@ -1,0 +1,35 @@
+{
+  "model_id": "IDEA-Research/grounding-dino-tiny",
+  "resolved_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "effective_prompt": "a butterfly\na moth",
+  "versions": {
+    "torch": "2.15.0",
+    "transformers": "4.57.6",
+    "pillow": "13.0.0"
+  },
+  "settings": {
+    "dataset": "final_project/dataset_ours.jsonl",
+    "prompt": "final_project/prompt_detector.txt",
+    "model": "grounding-dino",
+    "output": "final_project/examples/grounding_dino.jsonl",
+    "device": "mps",
+    "revision": "main",
+    "threshold": 0.25,
+    "text_threshold": 0.25,
+    "max_new_tokens": 2048,
+    "max_image_side": 1280,
+    "cache_dir": null,
+    "limit": 1
+  },
+  "prompt": "a butterfly\na moth",
+  "dataset_sha256": "09cc3782aa22313b21a101f473ef22b0fd4799e405a15530e2f755934a051cf2",
+  "photo_count": 1,
+  "seed": 0,
+  "exif_transpose": true,
+  "relocated_inputs": {
+    "dataset": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/dataset_ours.jsonl",
+    "prompt": "/Users/ruakkfe/Study/crowdsoursing/final_project/prompts/detector.txt"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "started": "2026-11-18T22:33:42.828042",
+  "stage": "inference",
+  "downloads_done": 800,
+  "jobs": [
+    {
+      "model": "grounding-dino",
+      "dataset": "dataset_ours",
+      "status": "complete",
+      "command": [
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/.venv/bin/python",
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/label.py",
+        "dataset_ours.jsonl",
+        "detector.txt",
+        "--model",
+        "grounding-dino",
+        "--device",
+        "mps",
+        "--threshold",
+        "0"
+      ],
+      "console_log": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_ours_grounding-dino.log",
+      "returncode": 0
+    },
+    {
+      "model": "grounding-dino",
+      "dataset": "dataset_contest",
+      "status": "complete",
+      "command": [
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/.venv/bin/python",
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/label.py",
+        "dataset_contest.jsonl",
+        "detector.txt",
+        "--model",
+        "grounding-dino",
+        "--device",
+        "mps",
+        "--threshold",
+        "0"
+      ],
+      "console_log": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_contest_grounding-dino.log",
+      "returncode": 0
+    },
+    {
+      "model": "owlv2",
+      "dataset": "dataset_ours",
+      "status": "complete",
+      "command": [
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/.venv/bin/python",
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/label.py",
+        "dataset_ours.jsonl",
+        "detector.txt",
+        "--model",
+        "owlv2",
+        "--device",
+        "mps",
+        "--threshold",
+        "0"
+      ],
+      "console_log": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_ours_owlv2.log",
+      "returncode": 0
+    },
+    {
+      "model": "owlv2",
+      "dataset": "dataset_contest",
+      "status": "complete",
+      "command": [
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/.venv/bin/python",
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/label.py",
+        "dataset_contest.jsonl",
+        "detector.txt",
+        "--model",
+        "owlv2",
+        "--device",
+        "mps",
+        "--threshold",
+        "0"
+      ],
+      "console_log": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_contest_owlv2.log",
+      "returncode": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "dataset_ours",
+      "status": "failed",
+      "command": [
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/.venv/bin/python",
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/label.py",
+        "dataset_ours.jsonl",
+        "qwen.txt",
+        "--model",
+        "qwen",
+        "--device",
+        "mps"
+      ],
+      "console_log": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_ours_qwen.log",
+      "returncode": 1
+    },
+    {
+      "model": "qwen",
+      "dataset": "dataset_contest",
+      "status": "running",
+      "pid": 70202,
+      "command": [
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/.venv/bin/python",
+        "/Users/ruakkfe/Study/crowdsoursing/final_project/label.py",
+        "dataset_contest.jsonl",
+        "qwen.txt",
+        "--model",
+        "qwen",
+        "--device",
+        "mps"
+      ],
+      "console_log": "/Users/ruakkfe/Study/crowdsoursing/final_project/data/full_dataset_contest_qwen.log"
+    }
+  ],
+  "download_errors": []
+}
