@@ -46,5 +46,17 @@
     "original_bytes": 131634366,
     "compressed_bytes": 42495715,
     "uncompressed_sha256": "3e37b25a85e527db0e4d3dccdbf88c8628480f2bc4b14f01e8f425eae8f57b84"
+  },
+  {
+    "path": "predictions/experiments/detector_v2_grounding-dino/log.jsonl.gz",
+    "original_bytes": 36061535,
+    "compressed_bytes": 13749593,
+    "uncompressed_sha256": "b432d5922031626c7751c4a2ea8433b8c9ea373cf1f7cd620375b06e373abafc"
+  },
+  {
+    "path": "predictions/experiments/detector_v2_grounding-dino/predictions.jsonl.gz",
+    "original_bytes": 42164693,
+    "compressed_bytes": 13837238,
+    "uncompressed_sha256": "386dbe765c3003b16e29847bbc45222af18911f42d0f49dac4e4078c98a117b3"
   }
 ]

@@ -1,0 +1,11 @@
+Detect all adult butterflies and moths (both daytime and nighttime species are the target class).
+
+Rules:
+1. Each individual insect gets exactly one tight box. Combine wings, body, antennae, and legs into that single box.
+2. Overlapping insects → separate boxes per individual.
+3. Partially visible or edge-cut insects → box only the visible part; do not guess hidden parts.
+4. NOT a target: caterpillars, pupae, other insects, shadows, background patterns, wing-like shapes on leaves or fabric.
+5. If nothing matches, return an empty list.
+
+Example of WRONG output: three boxes on one butterfly (one per wing + body).
+Example of CORRECT output: one box tightly around the whole butterfly.

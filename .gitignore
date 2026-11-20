@@ -16,3 +16,4 @@ __pycache__/
 *.heic
 *.pid
 *.tmp
+*.run.log

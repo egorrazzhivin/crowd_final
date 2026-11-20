@@ -1,0 +1,32 @@
+{
+  "model_id": "google/owlv2-base-patch16",
+  "resolved_revision": "2a1560802f8cf3c408fec9b809d705f56a2f7146",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "effective_prompt": "butterfly or moth",
+  "versions": {
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "transformers": "4.57.6",
+    "pillow": "13.0.0",
+    "scipy": "1.18.1"
+  },
+  "settings": {
+    "dataset": "/Users/a1234/Desktop/it/ysda_2026_autumn/razmetochka/hw_5/crowd_final/data/dataset_ours.jsonl",
+    "prompt": "/Users/a1234/Desktop/it/ysda_2026_autumn/razmetochka/hw_5/crowd_final/prompts/detector_v2.txt",
+    "model": "owlv2",
+    "device": "mps",
+    "revision": "main",
+    "threshold": 0.01,
+    "nms_iou": null,
+    "max_new_tokens": null,
+    "max_image_side": 1280,
+    "limit": null,
+    "tag": "prompt_v2"
+  },
+  "prompt": "butterfly or moth",
+  "dataset_sha256": "09cc3782aa22313b21a101f473ef22b0fd4799e405a15530e2f755934a051cf2",
+  "photo_count": 400,
+  "seed": 0,
+  "exif_transpose": true
+}

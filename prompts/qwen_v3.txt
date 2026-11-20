@@ -1,0 +1,5 @@
+Locate all adult butterflies and moths in the image.
+CRITICAL: one insect = exactly one bounding box. Do not split a single insect into separate boxes for its wings, body, or antennae. Do not create duplicate boxes for the same insect.
+Include visible antennae and legs in the box. Include visible parts of partially occluded or edge-cut insects; do not infer hidden parts.
+Exclude caterpillars, pupae, other insects, shadows, and colored patterns on leaves or flowers.
+Empty list if no butterflies or moths are present.

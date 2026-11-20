@@ -1,0 +1,32 @@
+{
+  "model_id": "IDEA-Research/grounding-dino-tiny",
+  "resolved_revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "effective_prompt": "an adult butterfly\nan adult moth",
+  "versions": {
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "transformers": "4.57.6",
+    "pillow": "13.0.0",
+    "scipy": "1.18.1"
+  },
+  "settings": {
+    "dataset": "/Users/a1234/Desktop/it/ysda_2026_autumn/razmetochka/hw_5/crowd_final/data/dataset_ours.jsonl",
+    "prompt": "/Users/a1234/Desktop/it/ysda_2026_autumn/razmetochka/hw_5/crowd_final/prompts/detector_v4.txt",
+    "model": "grounding-dino",
+    "device": "mps",
+    "revision": "main",
+    "threshold": 0.01,
+    "nms_iou": null,
+    "max_new_tokens": null,
+    "max_image_side": 1280,
+    "limit": null,
+    "tag": "prompt_v4"
+  },
+  "prompt": "an adult butterfly\nan adult moth",
+  "dataset_sha256": "09cc3782aa22313b21a101f473ef22b0fd4799e405a15530e2f755934a051cf2",
+  "photo_count": 400,
+  "seed": 0,
+  "exif_transpose": true
+}

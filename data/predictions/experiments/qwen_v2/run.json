@@ -1,0 +1,37 @@
+{
+  "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "resolved_revision": "89644892e4d85e24eaac8bacfd4f463576704203",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "effective_prompt": "Find every adult butterfly and moth in this photo.\nDraw exactly ONE tight bounding box per individual, covering visible wings, body, antennae, and legs.\nIf two insects overlap, draw two separate boxes.\nIf an insect is cut by the image edge, box only its visible part.\nDo NOT include: caterpillars, pupae, other insects, shadows, background.\nReturn an empty list if none found.\n\nReturn only a JSON array of objects with a bbox_2d field, for example:\n[{\"bbox_2d\": [100, 200, 400, 600]}].\nEach box is [x_min, y_min, x_max, y_max], with coordinates relative to the\nimage width and height on a scale from 0 to 1000. Do not return pixel coordinates.\nReturn [] if there are no matching objects. Do not include Markdown or explanations.",
+  "versions": {
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "transformers": "4.57.6",
+    "pillow": "13.0.0",
+    "scipy": "1.18.1"
+  },
+  "json_retry_policy": {
+    "max_attempts": 3,
+    "temperature": 0.2,
+    "top_p": 0.9
+  },
+  "settings": {
+    "dataset": "/Users/a1234/Desktop/it/ysda_2026_autumn/razmetochka/hw_5/crowd_final/data/dataset_ours.jsonl",
+    "prompt": "/Users/a1234/Desktop/it/ysda_2026_autumn/razmetochka/hw_5/crowd_final/prompts/qwen_v2.txt",
+    "model": "qwen",
+    "device": "mps",
+    "revision": "main",
+    "threshold": null,
+    "nms_iou": null,
+    "max_new_tokens": 2048,
+    "max_image_side": 1280,
+    "limit": null,
+    "tag": "qwen_v2"
+  },
+  "prompt": "Find every adult butterfly and moth in this photo.\nDraw exactly ONE tight bounding box per individual, covering visible wings, body, antennae, and legs.\nIf two insects overlap, draw two separate boxes.\nIf an insect is cut by the image edge, box only its visible part.\nDo NOT include: caterpillars, pupae, other insects, shadows, background.\nReturn an empty list if none found.",
+  "dataset_sha256": "09cc3782aa22313b21a101f473ef22b0fd4799e405a15530e2f755934a051cf2",
+  "photo_count": 400,
+  "seed": 0,
+  "exif_transpose": true
+}

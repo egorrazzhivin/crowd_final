@@ -1,0 +1,6 @@
+Find every adult butterfly and moth in this photo.
+Draw exactly ONE tight bounding box per individual, covering visible wings, body, antennae, and legs.
+If two insects overlap, draw two separate boxes.
+If an insect is cut by the image edge, box only its visible part.
+Do NOT include: caterpillars, pupae, other insects, shadows, background.
+Return an empty list if none found.

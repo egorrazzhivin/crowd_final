@@ -63,6 +63,9 @@ def result_directory(args):
     name = f"{dataset_stem}_{args.model}_threshold-{threshold}"
     if args.model == "grounding-dino":
         name += f"_nms-{args.nms_iou if args.nms_iou is not None else 'off'}"
+    tag = getattr(args, "tag", None)
+    if tag:
+        name += f"__{tag}"
     return DATA_DIR / "predictions" / name
 
 
@@ -305,6 +308,7 @@ def main():
     parser.add_argument("--max-new-tokens", type=int, help="Qwen only; defaults to 2048")
     parser.add_argument("--max-image-side", type=int, default=1280)
     parser.add_argument("--limit", type=int, help="Process only the first N photos for a pilot")
+    parser.add_argument("--tag", default=None, help="Optional suffix appended to the output directory name")
     args = parser.parse_args()
     if args.model == "grounding-dino":
         if args.nms_iou is not None and not 0 <= args.nms_iou <= 1:
